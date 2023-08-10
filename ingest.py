@@ -8,7 +8,7 @@ import pickle
 
 
 # Here we load in the data in the format that Notion exports it in.
-ps = list(Path("docs/").glob("**/*.md"))
+ps = list(Path("documents/").glob("**/*.md"))
 
 data = []
 sources = []
